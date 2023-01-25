@@ -1,5 +1,3 @@
-Usage: pipenv lock [OPTIONS]
-
   Generates Pipfile.lock.
 
 Options:
