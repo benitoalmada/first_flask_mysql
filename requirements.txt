@@ -1,19 +1,22 @@
-certifi==2022.12.7
-cffi==1.15.1
-click==8.1.3
-colorama==0.4.6
-cryptography==39.0.0
-cryptograpy==0.0.0
-distlib==0.3.6
-filelock==3.9.0
-Flask==2.2.2
-itsdangerous==2.1.2
-Jinja2==3.1.2
-MarkupSafe==2.1.2
-pipenv==2022.12.19
-platformdirs==2.6.2
-pycparser==2.21
-PyMySQL==1.0.2
-virtualenv==20.17.1
-virtualenv-clone==0.5.7
-Werkzeug==2.2.2
+Usage: pipenv lock [OPTIONS]
+
+  Generates Pipfile.lock.
+
+Options:
+  --categories TEXT
+  --dev-only             Emit development dependencies *only* (overrides
+                         --dev)
+  -d, --dev              Generate both develop and default requirements  [env
+                         var: PIPENV_DEV]
+  --extra-pip-args TEXT
+  --keep-outdated        Keep out-dated dependencies from being updated in
+                         Pipfile.lock.  [env var: PIPENV_KEEP_OUTDATED]
+  --pre                  Allow pre-releases.
+  --python TEXT          Specify which version of Python virtualenv should
+                         use.
+  --three                Use Python 3 when creating virtualenv. Deprecated
+  --clear                Clears caches (pipenv, pip).  [env var: PIPENV_CLEAR]
+  -q, --quiet            Quiet mode.
+  -v, --verbose          Verbose mode.
+  --pypi-mirror TEXT     Specify a PyPI mirror.
+  -h, --help             Show this message and exit.
